@@ -1,0 +1,120 @@
+* {
+  font-family: "Roboto Slab", serif;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* background-color: blue; */
+}
+
+div {
+  color: white;
+}
+
+body {
+  background-color: #f1faee;
+  font-family: "Roboto Slab", serif;
+}
+h1 {
+  color: #1d3557;
+}
+.text {
+  background-color: salmon;
+  color: gray;
+}
+
+.btn {
+  background-color: salmon;
+  border: none;
+  padding: 10px 20px;
+  margin: 30px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+
+  /* border-radius: 5px; */
+}
+
+.Container {
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax;
+  box-sizing: border-box;
+}
+
+.Container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 15px;
+  /* border-radius: 5px; */
+  border: 2px solid navy;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: #38b000;
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 40px;
+  padding: 7px;
+  /* float: right; */
+  /* position: relative; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* justify-content: end; */
+
+  left: 30px;
+}
+button:hover {
+  background-color: #006400;
+  /* transition-delay:1s; */
+  transition-duration: 0.7s;
+}
+
+.task {
+  display: flex;
+  background-color: #000;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+  align-items: center;
+}
+
+.task span {
+  color: #f5f3f4;
+  font-size: 1.2rem;
+}
+
+.task p {
+  color: #fca311;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.task > div {
+  width: 100%;
+}
+
+.task button {
+  background-color: crimson;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 10px; */
+}
+
+.task button:hover {
+  background-color: red;
+}
